@@ -2,10 +2,14 @@ html {
     font-size: 16px;
 }
 
-body {
+body {    
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+#checkbox-menu,	.toggle{
+	display: none;
 }
 
 .page {

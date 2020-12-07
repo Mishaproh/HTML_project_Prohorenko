@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,31 +10,40 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles/style-media.css">
+    <link rel="stylesheet" href="styles/style-media.css">
 </head>
+
 <body>
     <main class="page">
         <section class="page__head">
-                <div class="logo-block">
-                    <div class="logo">Stimulus</div>
-                </div>
-                <div class="menu-block">
-                    <nav class="navi">
-                        <ul class="menu">
+            <div class="logo-block">
+                <div class="logo">Stimulus</div>
+            </div>
+            <div class="menu-block">
+                <nav class="navi">
+                    <input type="checkbox" id="checkbox-menu">
+                    <label for="checkbox-menu">
+                        <ul class="menu touch">
                             <li><a href="#">Home</a> </li>
                             <li><a href="#">About me</a></li>
                             <li><a href="#">Experiences</a></li>
                             <li><a href="#">Testimonial</a></li>
                             <li><a href="#">contact</a></li>
                         </ul>
-                    </nav>
-                    <div class="menu-restriction">
-                        <div class="menu-suptitle">Lorem ipsum dolor sit.</div>
-                        <div class="menu-title">Lorem ipsum dolor <span class="strong">sit</span>  amet, consectetur adipisicing elit.</div>
-                        <div class="menu-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, id unde? Totam quae, rerum cumque eum sunt saepe. Maxime quis deleniti incidunt qui dolores ab. Officia expedita animi fuga odit delectus possimus totam laudantium odio ipsam fugit perspiciatis, aperiam soluta nulla, id esse? Ipsa facilis rerum nemo consequatur provident error?</div>
-                        <div class="menu-btn">Get Started</div>
-                    </div>
+                        <span class="toggle">☰</span>
+                    </label>
+                </nav>
+                <div class="menu-restriction">
+                    <div class="menu-suptitle">Lorem ipsum dolor sit.</div>
+                    <div class="menu-title">Lorem ipsum dolor <span class="strong">sit</span> amet, consectetur
+                        adipisicing elit.</div>
+                    <div class="menu-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, id unde?
+                        Totam quae, rerum cumque eum sunt saepe. Maxime quis deleniti incidunt qui dolores ab. Officia
+                        expedita animi fuga odit delectus possimus totam laudantium odio ipsam fugit perspiciatis,
+                        aperiam soluta nulla, id esse? Ipsa facilis rerum nemo consequatur provident error?</div>
+                    <div class="menu-btn">Get Started</div>
                 </div>
+            </div>
         </section>
         <section class="page__info">
             <div class="donec">
@@ -41,119 +51,133 @@
                     <div class="donec__title">Donec auctor</div>
                     <div class="donec__subtitle">Lorem ipsum dolor sit amet consectetur.</div>
                     <div class="donec__text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa incidunt, aliquid sit quod perferendis.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa incidunt, aliquid sit quod perferendis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa incidunt, aliquid sit
+                            quod perferendis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa incidunt, aliquid sit
+                            quod perferendis.</p>
                     </div>
                 </div>
             </div>
             <div class="skill">
                 <div class="skill__img"></div>
-                
+
                 <div class="skill__info">
-                        <div class="skill__restription">
-                            <div class="skill__title">My Skills</div>
-                            <div class="skill__text">Photoshop. HTML. CSS. JS. Web Design</div>
-                            <div class="skill__analize">
-                                <div class="analize ">
-                                    <div class="analize__text">Frontend Design</div>
-                                    <div class="analize__numb">90%</div>
-                                </div>
-                                <div class="analize ">
-                                        <div class="analize__text analize__text-bp">Backend processing</div>
-                                        <div class="analize__numb analize__numb-bp">70%</div>
-                                    </div>
-                                    <div class="analize ">
-                                            <div class="analize__text analize__text-htcs">HTML&CSS3</div>
-                                            <div class="analize__numb analize__numb-htcs">80%</div>
-                                        </div>
-                                
+                    <div class="skill__restription">
+                        <div class="skill__title">My Skills</div>
+                        <div class="skill__text">Photoshop. HTML. CSS. JS. Web Design</div>
+                        <div class="skill__analize">
+                            <div class="analize ">
+                                <div class="analize__text">Frontend Design</div>
+                                <div class="analize__numb">90%</div>
                             </div>
+                            <div class="analize ">
+                                <div class="analize__text analize__text-bp">Backend processing</div>
+                                <div class="analize__numb analize__numb-bp">70%</div>
+                            </div>
+                            <div class="analize ">
+                                <div class="analize__text analize__text-htcs">HTML&CSS3</div>
+                                <div class="analize__numb analize__numb-htcs">80%</div>
+                            </div>
+
                         </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="categories">
-            
+
             <div class="interface">
                 <div class="interface-restriction">
-                <i class="fas fa-tv fa-2x"></i>
-                <div class="interface__title">Interface Design</div>
-                <div class="interface__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni quam.</div>
+                    <i class="fas fa-tv fa-2x"></i>
+                    <div class="interface__title">Interface Design</div>
+                    <div class="interface__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni
+                        quam.</div>
                 </div>
             </div>
             <div class="media">
                 <div class="media-restriction">
                     <i class="fab fa-telegram-plane fa-2x"></i>
                     <div class="media__title">Interface Design</div>
-                    <div class="media__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni quam.</div>
-                    </div>
+                    <div class="media__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni
+                        quam.</div>
+                </div>
             </div>
             <div class="app">
                 <div class="app-restriction">
                     <i class="fab fa-buromobelexperte fa-2x"></i>
                     <div class="app__title">Interface Design</div>
-                    <div class="app__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni quam.</div>
+                    <div class="app__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni quam.
                     </div>
+                </div>
             </div>
             <div class="coding">
                 <div class="coding-restriction">
                     <i class="fab fa-html5 fa-2x"></i>
                     <div class="coding__title">Interface Design</div>
-                    <div class="coding__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni quam.</div>
-                    </div>
+                    <div class="coding__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, magni
+                        quam.</div>
+                </div>
             </div>
         </section>
         <section class="experiences">
             <div class="experiences__image"></div>
             <div class="experiences__info">
                 <div class="experiences__restriction">
-                <div class="experiences__title">
-                    <div class="experiences__suptitle">My Experiences</div>
-                    <div class="experiences__subtitle">Lorem ipsum dolor sit amet.</div>
-                </div>
-                <div class="experiences__blocks">
-                    <div class="experiences__block-t">
-                        <i class="fas fa-laptop fa-2x"></i>
-                        <div class="experiences__block">
-                            <div class="experiences__block-h">Grapgic Designer <span class="date-style">2014 Jul-2015 Sep</span> </div>
-                            <div class="experiences__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                    <div class="experiences__title">
+                        <div class="experiences__suptitle">My Experiences</div>
+                        <div class="experiences__subtitle">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="experiences__blocks">
+                        <div class="experiences__block-t">
+                            <i class="fas fa-laptop fa-2x"></i>
+                            <div class="experiences__block">
+                                <div class="experiences__block-h">Grapgic Designer <span class="date-style">2014
+                                        Jul-2015 Sep</span> </div>
+                                <div class="experiences__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit.</div>
+                            </div>
+                        </div>
+                        <div class="experiences__block-b">
+                            <i class="fas fa-laptop fa-2x"></i>
+                            <div class="experiences__block">
+                                <div class="experiences__block-h">Web Designer <span class="date-style">2015 Oct-2017
+                                        Jan</span> </div>
+                                <div class="experiences__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit.</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="experiences__block-b">
-                        <i class="fas fa-laptop fa-2x"></i>
-                        <div class="experiences__block">
-                            <div class="experiences__block-h">Web Designer <span class="date-style">2015 Oct-2017 Jan</span> </div>
-                            <div class="experiences__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </section>
         <section class="education">
-            
+
             <div class="education__info ">
                 <div class="education__restriction">
-                <div class="education__title">
-                    <div class="education__suptitle">My Education</div>
-                    <div class="education__subtitle">Lorem ipsum dolor sit amet.</div>
-                </div>
-                <div class="education__blocks">
-                    <div class="education__block-t">
-                        <i class="fas fa-laptop fa-2x"></i>
-                        <div class="education__block">
-                            <div class="education__block-h">Master in Design <span class="date-style">2014 Jul-2015 Sep</span> </div>
-                            <div class="education__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                    <div class="education__title">
+                        <div class="education__suptitle">My Education</div>
+                        <div class="education__subtitle">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="education__blocks">
+                        <div class="education__block-t">
+                            <i class="fas fa-laptop fa-2x"></i>
+                            <div class="education__block">
+                                <div class="education__block-h">Master in Design <span class="date-style">2014 Jul-2015
+                                        Sep</span> </div>
+                                <div class="education__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit.</div>
+                            </div>
+                        </div>
+                        <div class="education__block-b">
+                            <i class="fas fa-laptop fa-2x"></i>
+                            <div class="education__block">
+                                <div class="education__block-h">Bachelor of Arts <span class="date-style">2015 Oct-2017
+                                        Jan</span> </div>
+                                <div class="education__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                    elit.</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="education__block-b">
-                        <i class="fas fa-laptop fa-2x"></i>
-                        <div class="education__block">
-                            <div class="education__block-h">Bachelor of Arts <span class="date-style">2015 Oct-2017 Jan</span> </div>
-                            <div class="education__block-m">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
             <div class="education__image"></div>
@@ -161,18 +185,22 @@
         <section class="pen">
             <div class="pen__restriction">
                 <i class="fas fa-star fa-2x"></i>
-                <div class="pen__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sequi. Magnam molestiae est culpa saepe ipsum.</div>
-                <div class="pen__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, voluptatem.</div>
+                <div class="pen__title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sequi. Magnam
+                    molestiae est culpa saepe ipsum.</div>
+                <div class="pen__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, voluptatem.
+                </div>
             </div>
         </section>
         <section class="footer">
             <div class="footer__hello">
                 <div class="hello__restriction">
                     <div class="hello__title">Say hello..</div>
-                    <div class="hello__subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, quo!</div>
+                    <div class="hello__subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, quo!
+                    </div>
                     <input class="hello__name" type="text" placeholder="Your Name">
                     <input class="hello__mail" type="email" placeholder="Your Email">
-                    <textarea class="hello__message" name="message" id="" cols="30" rows="10" placeholder="Write your message..."></textarea>
+                    <textarea class="hello__message" name="message" id="" cols="30" rows="10"
+                        placeholder="Write your message..."></textarea>
                     <div class="hello__btn">Send</div>
                 </div>
             </div>
@@ -204,6 +232,7 @@
             </div>
         </section>
     </main>
-    
+
 </body>
+
 </html>

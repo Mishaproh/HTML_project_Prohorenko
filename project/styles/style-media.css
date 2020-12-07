@@ -176,6 +176,165 @@ width: 100%;
     }
 }
 
-@media screen and (max-width:320px) {
+@media (min-width:320px) and (max-width:575px){
+    .toggle{
+		clear: both;
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		line-height: 40px;
+		width: 100%;
+		color: #000;
+		background: #ffcc01;
+		transition: all .0s linear;
+	}
+	.toggle:hover{
+		background: #d3a900;
+	}
+	#checkbox-menu:checked + label .touch li{
+		opacity: 1;
+		visibility: visible;
+		transition: all .7s linear
+	}
+	#checkbox-menu:checked + label .touch{
+        height: 350px;
+        
+    }
+    .menu{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		height: 0;
+        transition: height .3s linear;
+        width: 250px;
+        margin-top: -19px;
+	}
+	.menu li{
+		display: flex;
+		align-self: center;
+		width: 95%;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.menu li a{
+		width: 95%;
+		text-align: center;
+		align-self: center;
+		align-content: center;
+    }
 
+    .menu-block{
+        height:450px;
+        /* margin-top: 50px; */
+    }
+    .menu-restriction{
+        padding: 0 20px;
+        /* margin-top: 5px; */
+        
+    }
+    .menu-title {
+        font-size: 1.3em;
+        
+    }
+    .logo-block{
+        height: 300px;
+    }
+    
+    .menu-subtitle{
+        font-size: 0.8rem;
+    }
+    .donec__title {
+        
+        margin: 10px 0;
+        font-size: 1.3rem;
+    }
+    .donec__subtitle {
+    
+        margin-bottom: 5px;
+    }
+    .donec__text{
+        font-size: 0.8rem;
+    }
+    .donec-restriction{
+        margin-left: -20px;
+    }
+    .skill{
+        flex-direction: column;
+        height: 220px;
+    }
+    .skill__img{
+        display: none;
+    }
+    .skill__info{
+        width: 100%;
+        height: 250px;
+    }
+    .categories{
+        height: 1080px;
+        width: 100%;
+    }
+    .interface {
+        width: 100%;
+        height: 270px;
+        
+        background: #E9714C;
+    }
+    .media {
+        width: 100%;
+        height: 270px;
+        background: #E4AE58;
+    }
+    .app {
+        width: 100%;
+        height: 270px;
+    }
+    .coding {
+        width: 100%;
+        height: 270px;
+    }
+    .experiences__image{
+        display: none;
+    }
+    .experiences__info {
+        width: 100%;
+    }
+    .experiences__blocks {
+        width: 90%;
+    }
+    .education__image{
+        display: none;
+    }
+    .education__info  {
+        width: 100%;
+    }
+    .education__block-t {
+        width: 90%;
+    }
+    .education__block-b {
+        width: 90%;
+    }
+    .pen{
+        width: 100%;
+    }
+    .pen__title {
+        font-size: 1.2rem;
+    }
+    .footer__hello {
+        width: 100%;
+    }
+    .hello__btn {
+        margin-bottom: 20px;
+    }
+    .footer__img{
+        display: none;
+    }
+    .footer__contact{
+        width: 100%;
+    }
+    
+    .mail {
+        width:68%;
+    }
+    
 }
