@@ -1,0 +1,181 @@
+@media screen and (min-width:1200px){
+.experiences__block-t{
+max-width:440px ;
+width: 100%;
+}
+.experiences__block-b{
+    max-width:440px ;
+    width: 100%;
+}
+.education__block-t {
+    max-width:440px ;
+    width: 100%;
+}
+.education__block-b {
+    max-width:440px ;
+    width: 100%;
+}
+.phone {
+    max-width: 120px;
+    width: 100%;
+}
+.mail {
+    max-width: 158px;
+    width: 100%;
+}
+.link {
+    max-width: 112px;
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width:992px) {
+    .page__head {
+        flex-direction: column;
+    }
+    .logo-block {
+        width: 100%
+    }
+    .menu-block {
+        width: 100%
+    }
+    .experiences__restriction {
+        width: 85%;
+    }
+    .experiences__block-t {
+        width: 100%;
+    }
+    .experiences__block-b {
+        width: 100%;
+    }
+    .education__restriction {
+        width: 85%;
+    }
+    .education__block-t {
+        width: 100%;
+    }
+    .education__block-b {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer__hello {
+        width: 100%;
+    }
+    .footer__visit {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page__info {
+        flex-direction: column;
+        height: 500px;
+    }
+    .donec {
+        width: 100%;
+    }
+    .skill {
+        width: 100%;
+    }
+    .experiences__restriction {
+        width: 90%;
+    }
+    .education__restriction {
+        width: 90%;
+    }
+    .experiences__block-h {
+        font-size: 1.3rem;
+    }
+    .experiences__block-m {
+        font-size: 0.8rem;
+    }
+    .education__block-h {
+        font-size: 1.3rem;
+    }
+    .education__block-m {
+        font-size: 0.8rem;
+    }
+    .phone {
+        width: 43%;
+    }
+    .mail {
+        width: 55%;
+    }
+    .link {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .menu-title {
+        margin: 20px 0;
+    }
+    .categories {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 540px;
+    }
+    .interface {
+        width: 50%;
+        height: 270px;
+    }
+    .media {
+        width: 50%;
+        height: 270px;
+    }
+    .app {
+        width: 50%;
+        height: 270px;
+    }
+    .coding {
+        width: 50%;
+        height: 270px;
+    }
+    .experiences__restriction {
+        height: 70%;
+        width: 96%;
+    }
+    .education__restriction {
+        height: 70%;
+        width: 96%;
+    }
+    .experiences__block-h {
+        font-size: 1.1rem;
+    }
+    .experiences__block-m {
+        font-size: 0.6rem;
+    }
+    .education__block-h {
+        font-size: 1.1rem;
+    }
+    .education__block-m {
+        font-size: 0.6rem;
+    }
+    .pen__title {
+        font-size: 1.4rem;
+    }
+    .pen__restriction {
+        width: 80%;
+    }
+    .phone {
+        width: 53%;
+    }
+    .mail {
+        width: 70%;
+    }
+    .link {
+        width: 50%;
+    }
+    .menu {
+        width: 500px;
+        margin: 18px 30px
+    }
+}
+
+@media screen and (max-width:320px) {
+
+}
